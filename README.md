@@ -1,5 +1,7 @@
 # CloudStatus
 
+🇬🇧 English | [🇪🇸 Español](README.es.md)
+
 > Interpreting Syncthing for humans.
 
 <p align="center">
@@ -8,146 +10,145 @@
 
 </p>
 
-## ¿Qué es CloudStatus?
+## What is CloudStatus?
 
-CloudStatus es una aplicación para macOS que vive en la barra de menús y te permite conocer de un vistazo el estado de sincronización de Syncthing.
+CloudStatus is a macOS menu bar app that lets you check the status of your Syncthing synchronization at a glance.
 
-Su objetivo es muy sencillo: transformar información técnica en información útil.
+Its goal is simple: turn technical information into meaningful information.
 
-En lugar de interpretar conexiones, índices o estados difíciles de entender, CloudStatus responde a preguntas mucho más naturales:
+Instead of making you interpret connections, indexes, or cryptic status messages, CloudStatus answers the questions you actually care about:
 
-- ¿Está todo sincronizado?
-- ¿Qué dispositivo está sincronizando?
-- ¿Qué archivos acaban de recibirse?
-- ¿Necesito hacer algo?
+- Is everything synced?
+- Which device is currently syncing?
+- Which files were just received?
+- Do I need to do anything?
 
-Con un solo vistazo a la nube de la barra de menús sabrás si todo funciona correctamente. Si necesitas más información, CloudStatus muestra una interfaz clara y sencilla donde consultar la actividad reciente, el estado de los dispositivos y cualquier incidencia detectada.
+A quick glance at the cloud icon in your menu bar tells you whether everything is running smoothly. If you need more detail, CloudStatus provides a clean, intuitive interface where you can review recent activity, check the status of your devices, and quickly spot any issues.
 
 <p align="center">
   <img src="images/menubar-icons.png" alt="Menu Bar Icons" width="420">
 </p>
 
-La nube cambia automáticamente para reflejar el estado de la sincronización, permitiéndote saber de un vistazo si todo está sincronizado, si hay actividad o si existe algún problema.
+The cloud icon automatically changes to reflect the current synchronization status, making it easy to see whether everything is synced, synchronization is in progress, or something needs your attention.
 
-CloudStatus no pretende sustituir a Syncthing; pretende hacer que Syncthing sea más fácil de entender.
-
----
-
-## Características
-
-CloudStatus ha sido diseñado para integrarse de forma natural en macOS y ofrecer únicamente la información que realmente necesitas.
-
-- Dos modos de funcionamiento (Modo Distribuido y Modo Cloud) que adaptan automáticamente la interpretación de la sincronización y la interfaz según tu forma de utilizar Syncthing.
-- Una nube en la barra de menús que muestra de forma sencilla el estado de la sincronización.
-- Actividad reciente de sincronización.
-- Estado de todos los dispositivos conectados.
-- Detección visual de incidencias y problemas de sincronización.
-- Compatible con los modos claro y oscuro de macOS.
-- Configuración sencilla.
+CloudStatus isn't meant to replace Syncthing—it's designed to make Syncthing easier to understand.
 
 ---
 
-## ¿Por qué dos modos?
+## Features
 
-No todas las personas utilizan Syncthing de la misma manera.
+CloudStatus is built to feel at home on macOS while showing only the information that truly matters.
 
-Mientras que algunos prefieren una red distribuida donde todos los dispositivos colaboran entre sí, otros utilizan un servidor central como punto principal de sincronización.
+- Two operating modes (Distributed Mode and Cloud Mode) that automatically adapt both the synchronization logic and the interface to the way you use Syncthing.
+- A simple menu bar cloud icon that clearly reflects your synchronization status.
+- Recent synchronization activity.
+- Status of all connected devices.
+- Visual detection of synchronization issues and potential problems.
+- Full support for macOS Light and Dark Mode.
+- Simple, straightforward configuration.
 
-Por ese motivo, CloudStatus ofrece dos modos de funcionamiento.
+---
 
-El modo seleccionado no solo cambia la forma de interpretar la sincronización: también adapta automáticamente la interfaz para mostrar la información más relevante en cada escenario.
+## Why two modes?
+
+Not everyone uses Syncthing the same way.
+
+Some people prefer a fully distributed network where every device works as an equal peer, while others rely on a central server as their primary synchronization hub.
+
+That's why CloudStatus offers two operating modes.
+
+The selected mode doesn't just change how synchronization is interpreted—it also automatically adjusts the interface to highlight the information that's most relevant for your workflow.
+
 <p align="center">
 
-  <img src="images/view-mode.png" alt="Modo Distribuido" width="700">
+  <img src="images/view-mode.png" alt="Distributed Mode" width="700">
 
 </p>
 
+### Distributed Mode
 
-### Modo Distribuido
+Designed for people who use Syncthing as a distributed network across multiple devices.
 
-Pensado para quienes utilizan Syncthing como una red distribuida entre varios dispositivos.
+In this mode, the menu bar cloud reflects the overall synchronization status across every device. Recent activity and device organization provide a network-wide view of your synchronization.
 
-En este modo, la nube de la barra de menús refleja el estado global de la sincronización entre todos los equipos. La actividad y la organización de los dispositivos ofrecen una visión distribuida de toda la red.
+### Cloud Mode
 
-### Modo Cloud
+Designed for people who use a central server as their primary synchronization point.
 
-Pensado para quienes utilizan un servidor central como punto principal de sincronización.
+It's a workflow similar to Dropbox, OneDrive, or iCloud—but powered entirely by your own infrastructure.
 
-Es una forma de trabajar similar a Dropbox, OneDrive o iCloud, pero utilizando tu propia infraestructura.
+In this mode, CloudStatus treats the server as the point of reference. The menu bar cloud, recent activity, and device organization automatically adapt to provide a server-centric view of your entire synchronization setup.
 
-En este modo, CloudStatus toma el servidor como referencia. La nube de la barra de menús, la actividad y la organización de los dispositivos se adaptan automáticamente para ofrecer una visión centrada en el servidor y en el resto de equipos.
+---
 
+## Philosophy
 
+CloudStatus is designed to blend naturally into macOS with a clean interface where every element serves a purpose. Rather than exposing technical details, it translates Syncthing's status into plain language, so you can understand what's happening with a quick glance.
 
-
-## Filosofía
-
-La aplicación intenta integrarse de forma natural en macOS y mantener una interfaz limpia, donde cada elemento tenga un propósito. En lugar de mostrar información técnica, traduce el estado de Syncthing a un lenguaje fácil de entender, para que puedas saber cómo va la sincronización con un simple vistazo.
-
-**Menos datos. Más claridad.**
+**Less data. More clarity.**
 
 <p align="center">
   <img src="images/incoming.png" width="450">
 </p>
 
-La actividad muestra únicamente la información necesaria para entender qué está ocurriendo, sin sobrecargar la interfaz con datos técnicos.
+The activity view shows only the information you need to understand what's happening, without cluttering the interface with technical details.
 
 <p align="center">
   <img src="images/computer-folder.png" width="550">
 </p>
 
-Los dispositivos también priorizan la claridad. Con un clic puedes consultar rápidamente qué carpetas comparte cada equipo.
+The Devices section follows the same philosophy. With a single click, you can quickly see which folders each device is sharing.
 
 <p align="center">
   <img src="images/settings.png" width="450">
 </p>
 
-La configuración sigue la misma filosofía: opciones sencillas, bien organizadas e integradas con macOS.
+Settings are designed the same way: simple, well organized, and fully integrated with the macOS experience.
 
 ---
 
-## Antes de empezar
+## Before you get started
 
-Para utilizar CloudStatus necesitas:
+To use CloudStatus, you'll need:
 
-- macOS 12 Monterey o posterior.
-- Syncthing instalado y configurado.
-
----
-
-## Mirando al futuro
-
-CloudStatus seguirá evolucionando, pero siempre con la misma filosofía: hacer que entender Syncthing sea cada vez más sencillo.
-
-Estas son algunas de las ideas que me gustaría explorar en futuras versiones:
-
-- Confirmación remota de la sincronización mediante la API externa de Syncthing.
-- Notificaciones cuando se detecten conflictos de sincronización.
-- Integración con el Finder para mostrar el estado de sincronización directamente en las carpetas.
-- Iconos personalizados para las carpetas compartidas de Syncthing con opción de activación.
-- Acceso directo a las carpetas sincronizadas desde cada dispositivo mostrado en la aplicación.
-- Un asistente de configuración inicial más completo e intuitivo.
-- Notificaciones cuando haya nuevas versiones de CloudStatus disponibles.
-
-Como siempre, cualquier nueva función solo tendrá sentido si ayuda a que Syncthing sea un poco más fácil de entender.
+- macOS 12 Monterey or later.
+- Syncthing installed and configured.
 
 ---
 
-## Un agradecimiento a Syncthing
+## Looking ahead
 
-CloudStatus no existiría sin Syncthing.
+CloudStatus will continue to evolve, always guided by the same philosophy: making Syncthing easier to understand.
 
-Descubrir Syncthing fue una de esas pequeñas alegrías que te encuentras de vez en cuando. Una herramienta increíble, construida sobre una filosofía que comparto profundamente: el control de tus propios datos, la privacidad y la independencia de servicios de terceros.
+Here are a few ideas I'd like to explore in future releases:
 
-CloudStatus nace precisamente de esa admiración por Syncthing.
+- Remote synchronization confirmation using Syncthing's external API.
+- Notifications when synchronization conflicts are detected.
+- Finder integration to display synchronization status directly on your folders.
+- Optional custom icons for shared Syncthing folders.
+- Quick access to synchronized folders directly from each device shown in the app.
+- A more complete and intuitive first-run setup assistant.
+- Notifications when new versions of CloudStatus are available.
 
-En ningún momento intenté sustituir a Syncthing ni competir con él. Todo lo contrario: mi único objetivo ha sido ofrecer una forma más sencilla e intuitiva de interpretar la información que Syncthing ya proporciona, especialmente en el uso diario.
-
-Si has llegado hasta aquí sin conocer Syncthing, te animo a descubrirlo. Y si ya formas parte de su comunidad, espero que CloudStatus sea un buen compañero para disfrutarlo todavía más.
+As always, every new feature will only be added if it helps make Syncthing a little easier to understand.
 
 ---
 
-## Invítame a un café
+## A thank you to Syncthing
+
+CloudStatus wouldn't exist without Syncthing.
+
+Discovering Syncthing was one of those rare moments when you stumble upon something truly special. It's an incredible piece of software built around values I deeply believe in: ownership of your own data, privacy, and independence from third-party services.
+
+CloudStatus was born out of that admiration.
+
+My goal has never been to replace Syncthing or compete with it. Quite the opposite. The only objective has been to provide a simpler, more intuitive way to interpret the information Syncthing already provides—especially for day-to-day use.
+
+If you've made it this far without knowing about Syncthing, I highly encourage you to give it a try. And if you're already part of its community, I hope CloudStatus becomes a companion that makes the experience even better.
+
+---
+
+## Buy me a coffee
 
 <p align="center">
 
@@ -155,22 +156,22 @@ Si has llegado hasta aquí sin conocer Syncthing, te animo a descubrirlo. Y si y
 
 </p>
 
-CloudStatus es un proyecto desarrollado en mi tiempo libre y seguirá siendo completamente gratuito.
+CloudStatus is a personal project developed in my spare time, and it will always be completely free.
 
-Si te resulta útil y quieres apoyar su desarrollo, puedes invitarme a un café. Será una forma estupenda de ayudarme a seguir dedicándole tiempo y continuar mejorándolo.
+If you find it useful and would like to support its development, you can buy me a coffee. It would be a wonderful way to help me continue dedicating time to the project and making it even better.
 
-Gracias por darle una oportunidad a CloudStatus.
-
----
-
-## Agradecimientos
-
-También quiero dar las gracias a ChatGPT. Durante el desarrollo de CloudStatus ha sido el mejor compañero: me ha ayudado a dar forma a cientos de ideas, resolver problemas, revisar el código y escribir esta documentación. Estoy convencido de que este proyecto no habría sido el mismo sin esa colaboración.
+Thank you for giving CloudStatus a try.
 
 ---
 
-## Licencia
+## Acknowledgements
 
-CloudStatus se distribuye bajo la licencia MIT.
+I'd also like to thank ChatGPT. Throughout the development of CloudStatus, it has been an incredible companion—helping me shape hundreds of ideas, solve problems, review code, and write this documentation. I'm convinced this project wouldn't be what it is today without that collaboration.
 
-Consulta el archivo `LICENSE` para obtener más información.
+---
+
+## License
+
+CloudStatus is released under the MIT License.
+
+See the `LICENSE` file for more information.
