@@ -1,0 +1,401 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		111111111111111111111101 /* CloudStatusApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111111111111111111111001 /* CloudStatusApp.swift */; };
+		111111111111111111111102 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111111111111111111111002 /* AppDelegate.swift */; };
+		111111111111111111111103 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111111111111111111111003 /* Models.swift */; };
+		111111111111111111111104 /* SettingsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111111111111111111111004 /* SettingsStore.swift */; };
+		111111111111111111111105 /* SyncthingAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111111111111111111111005 /* SyncthingAPIClient.swift */; };
+		111111111111111111111106 /* StatusViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111111111111111111111006 /* StatusViewModel.swift */; };
+		111111111111111111111107 /* StatusBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111111111111111111111007 /* StatusBarController.swift */; };
+		111111111111111111111108 /* MainStatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111111111111111111111008 /* MainStatusView.swift */; };
+		111111111111111111111109 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111111111111111111111009 /* SettingsView.swift */; };
+		11111111111111111111110A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11111111111111111111100A /* Assets.xcassets */; };
+		11111111111111111111110D /* IconProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11111111111111111111100D /* IconProvider.swift */; };
+		11111111111111111111110E /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 11111111111111111111100E /* Localizable.strings */; };
+		11111111111111111111110F /* AppIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 111111111111111111111011 /* AppIcon.icns */; };
+		111111111111111111111112 /* LegacyLoginItems.c in Sources */ = {isa = PBXBuildFile; fileRef = 111111111111111111111012 /* LegacyLoginItems.c */; };
+		111111111111111111111115 /* SupportProjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111111111111111111111015 /* SupportProjectView.swift */; };
+		111111111111111111111116 /* InitialSetupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111111111111111111111016 /* InitialSetupView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		111111111111111111111001 /* CloudStatusApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudStatusApp.swift; sourceTree = "<group>"; };
+		111111111111111111111002 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		111111111111111111111003 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		111111111111111111111004 /* SettingsStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsStore.swift; sourceTree = "<group>"; };
+		111111111111111111111005 /* SyncthingAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyncthingAPIClient.swift; sourceTree = "<group>"; };
+		111111111111111111111006 /* StatusViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusViewModel.swift; sourceTree = "<group>"; };
+		111111111111111111111007 /* StatusBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusBarController.swift; sourceTree = "<group>"; };
+		111111111111111111111008 /* MainStatusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainStatusView.swift; sourceTree = "<group>"; };
+		111111111111111111111009 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		11111111111111111111100A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		11111111111111111111100B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11111111111111111111100C /* CloudStatus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CloudStatus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		11111111111111111111100D /* IconProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconProvider.swift; sourceTree = "<group>"; };
+		11111111111111111111100F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		111111111111111111111010 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		111111111111111111111011 /* AppIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = AppIcon.icns; sourceTree = "<group>"; };
+		111111111111111111111012 /* LegacyLoginItems.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LegacyLoginItems.c; sourceTree = "<group>"; };
+		111111111111111111111013 /* LegacyLoginItems.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LegacyLoginItems.h; sourceTree = "<group>"; };
+		111111111111111111111014 /* CloudStatus-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CloudStatus-Bridging-Header.h"; sourceTree = "<group>"; };
+		111111111111111111111015 /* SupportProjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupportProjectView.swift; sourceTree = "<group>"; };
+		111111111111111111111016 /* InitialSetupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialSetupView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		111111111111111111111201 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		111111111111111111111301 = {
+			isa = PBXGroup;
+			children = (
+				111111111111111111111302 /* CloudStatus */,
+				111111111111111111111303 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		111111111111111111111302 /* CloudStatus */ = {
+			isa = PBXGroup;
+			children = (
+				111111111111111111111001 /* CloudStatusApp.swift */,
+				111111111111111111111002 /* AppDelegate.swift */,
+				111111111111111111111003 /* Models.swift */,
+				111111111111111111111004 /* SettingsStore.swift */,
+				111111111111111111111012 /* LegacyLoginItems.c */,
+				111111111111111111111013 /* LegacyLoginItems.h */,
+				111111111111111111111014 /* CloudStatus-Bridging-Header.h */,
+				111111111111111111111005 /* SyncthingAPIClient.swift */,
+				111111111111111111111006 /* StatusViewModel.swift */,
+				111111111111111111111007 /* StatusBarController.swift */,
+				11111111111111111111100D /* IconProvider.swift */,
+				111111111111111111111304 /* Views */,
+				11111111111111111111100A /* Assets.xcassets */,
+				111111111111111111111011 /* AppIcon.icns */,
+				11111111111111111111100E /* Localizable.strings */,
+				11111111111111111111100B /* Info.plist */,
+			);
+			path = CloudStatus;
+			sourceTree = "<group>";
+		};
+		111111111111111111111303 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				11111111111111111111100C /* CloudStatus.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		111111111111111111111304 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				111111111111111111111008 /* MainStatusView.swift */,
+				111111111111111111111009 /* SettingsView.swift */,
+				111111111111111111111015 /* SupportProjectView.swift */,
+				111111111111111111111016 /* InitialSetupView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		111111111111111111111401 /* CloudStatus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 111111111111111111111801 /* Build configuration list for PBXNativeTarget "CloudStatus" */;
+			buildPhases = (
+				111111111111111111111501 /* Sources */,
+				111111111111111111111201 /* Frameworks */,
+				111111111111111111111502 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CloudStatus;
+			productName = CloudStatus;
+			productReference = 11111111111111111111100C /* CloudStatus.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		111111111111111111111601 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					111111111111111111111401 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = 111111111111111111111701 /* Build configuration list for PBXProject "CloudStatus" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				es,
+				Base,
+			);
+			mainGroup = 111111111111111111111301;
+			productRefGroup = 111111111111111111111303 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				111111111111111111111401 /* CloudStatus */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		111111111111111111111502 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11111111111111111111110A /* Assets.xcassets in Resources */,
+				11111111111111111111110F /* AppIcon.icns in Resources */,
+				11111111111111111111110E /* Localizable.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		111111111111111111111501 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				111111111111111111111101 /* CloudStatusApp.swift in Sources */,
+				111111111111111111111102 /* AppDelegate.swift in Sources */,
+				111111111111111111111103 /* Models.swift in Sources */,
+				111111111111111111111104 /* SettingsStore.swift in Sources */,
+				111111111111111111111105 /* SyncthingAPIClient.swift in Sources */,
+				111111111111111111111106 /* StatusViewModel.swift in Sources */,
+				111111111111111111111107 /* StatusBarController.swift in Sources */,
+				111111111111111111111108 /* MainStatusView.swift in Sources */,
+				111111111111111111111109 /* SettingsView.swift in Sources */,
+				111111111111111111111115 /* SupportProjectView.swift in Sources */,
+				111111111111111111111116 /* InitialSetupView.swift in Sources */,
+				11111111111111111111110D /* IconProvider.swift in Sources */,
+				111111111111111111111112 /* LegacyLoginItems.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		11111111111111111111100E /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11111111111111111111100F /* en */,
+				111111111111111111111010 /* es */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		111111111111111111111901 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		111111111111111111111902 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		111111111111111111111903 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = CloudStatus/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.9.6;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cloudstatus.CloudStatus;
+				PRODUCT_NAME = CloudStatus;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "CloudStatus/CloudStatus-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		111111111111111111111904 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = CloudStatus/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.9.6;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cloudstatus.CloudStatus;
+				PRODUCT_NAME = CloudStatus;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "CloudStatus/CloudStatus-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		111111111111111111111701 /* Build configuration list for PBXProject "CloudStatus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				111111111111111111111901 /* Debug */,
+				111111111111111111111902 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		111111111111111111111801 /* Build configuration list for PBXNativeTarget "CloudStatus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				111111111111111111111903 /* Debug */,
+				111111111111111111111904 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 111111111111111111111601 /* Project object */;
+}
